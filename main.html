@@ -1,16 +1,57 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Semantic Navbar and Images</title>
+<style>
+  /* CSS for basic styling */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .images-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+</style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About us</a></li>
+    <li><a href="#">Contact us</a></li>
+  </ul>
+</nav>
+
+<div class="images-container">
+  <h2>3 random images</h2>
+  <img src="https://picsum.photos/id/123/200/300" alt="Random image">
+  <img src="https://picsum.photos/id/124/200/300" alt="Random image">
+  <img src="https://picsum.photos/id/125/200/300" alt="Random image">
+</div>
 
 </body>
-
 </html>
